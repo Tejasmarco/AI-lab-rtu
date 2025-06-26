@@ -1,0 +1,203 @@
+1. Object Detection using OpenCV
+
+✦ What is it?
+
+Object detection is the process where a computer "sees" an image or video and identifies objects like people, cars, animals, etc.
+
+✦ Tools & Technologies:
+
+OpenCV: A library used for image and video processing.
+
+MobileNet SSD: A pre-trained AI model that recognizes 80 common objects.
+
+COCO dataset: A large set of images used to train the model.
+
+
+✦ How it works:
+
+1. The webcam or phone camera provides a live video.
+
+
+2. Each frame is passed to the AI model.
+
+
+3. The model detects objects and their positions.
+
+
+4. Boxes and labels are drawn on the video.
+
+
+
+✦ Applications:
+
+Security systems (CCTV)
+
+Self-driving cars
+
+Retail customer analytics
+
+
+
+---
+
+✅ 2. Heart Disease Prediction using Streamlit and ML
+
+✦ What is it?
+
+This project predicts whether a person is likely to have heart disease using health data.
+
+✦ Tools Used:
+
+Logistic Regression: A machine learning model used for prediction.
+
+Streamlit: Creates a user interface for the app.
+
+Pandas: Used to handle data in table form.
+
+Joblib: Saves and loads the trained model.
+
+
+✦ Input Features:
+
+Age, gender
+
+Blood pressure
+
+Cholesterol
+
+Exercise levels
+
+
+✦ Output:
+
+The system gives either High Risk or Low Risk with a confidence score.
+
+
+✦ Real-Life Use:
+
+Helps doctors in early diagnosis
+
+Used in healthcare monitoring systems
+
+
+
+---
+
+✅ 3. Social Media Recommendation System
+
+✦ What is it?
+
+A recommendation system suggests posts or videos that users may like, based on what they or others have interacted with.
+
+✦ Techniques:
+
+Collaborative Filtering: Suggests posts liked by similar users.
+
+Cosine Similarity: Measures how similar two users are based on their ratings.
+
+
+✦ How it works:
+
+1. Collect user-post ratings.
+
+
+2. Create a user-post matrix.
+
+
+3. Find similar users.
+
+
+4. Recommend posts the target user hasn’t seen but similar users liked.
+
+
+
+✦ Examples:
+
+Instagram: Reels based on likes
+
+YouTube: Video suggestions
+
+Netflix: Movie recommendations
+
+
+
+---
+
+✅ 4. Facial Recognition using OpenCV
+
+✦ What is it?
+
+Facial recognition is used to identify a person using their face image.
+
+✦ Tools:
+
+OpenCV: For image processing.
+
+LBPH Algorithm: Used to extract facial features and recognize them.
+
+Grayscale Images: Simpler and faster for face detection.
+
+
+✦ Steps:
+
+1. Create a dataset of face images.
+
+
+2. Train the recognizer with labeled data.
+
+
+3. Predict the label for a new test image.
+
+
+
+✦ Uses:
+
+Attendance systems
+
+Mobile phone unlocking
+
+Surveillance cameras
+
+
+
+---
+
+✅ 5. AI Virtual Tutor using Hugging Face + Wikipedia
+
+✦ What is it?
+
+A chatbot that answers students' academic questions using AI and Wikipedia.
+
+✦ Components:
+
+Hugging Face Transformers: For Natural Language Processing (NLP).
+
+Wikipedia API: To fetch topic summaries.
+
+Streamlit: For building a simple web app.
+
+
+✦ How it works:
+
+1. Student types a question.
+
+
+2. AI searches Wikipedia for relevant content.
+
+
+3. A pre-trained model (DistilBERT) answers the question.
+
+
+4. The answer is shown in the app.
+
+
+
+✦ Benefits:
+
+Acts like a virtual tutor.
+
+Useful for self-learning and revision.
+
+Available anytime for students.
+
+
